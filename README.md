@@ -8,6 +8,8 @@ On 11/18, Claude instroduced an experiemental "code mode", a method for using to
 
 On a search and replace across 124 CSV files (30 MB, 89 matches in 12 files), the Code Mode run was **about 7× cheaper ($0.08 vs $0.57)**, used **about 9× fewer context tokens**, and finished **about 30% faster (37 s vs 52 s)**, with identical correct results. The trade-off: the model sees less raw output, so it can miss side effects that the direct run pointed out. That makes Code Mode best for bulk work where the expected output is clear.
 
+![Screenshot](screenshot.png)
+
 ## Files
 
 ```
